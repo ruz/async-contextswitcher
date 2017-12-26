@@ -4,7 +4,7 @@ use v5.10;
 
 package Async::ContextSwitcher;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use base "Exporter::Tiny";
 our @EXPORT = qw(context cb_w_context);
